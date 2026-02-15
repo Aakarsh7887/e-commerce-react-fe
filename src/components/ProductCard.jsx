@@ -11,7 +11,7 @@ function ProductCard({ props }) {
         <h3 className="product-card-name">{props.title}</h3>
         <p className="product-card-price">${props.price}</p>
         <div className="product-card-actions">
-          <Link className="btn btn-secondary">View Details</Link>
+          <Link className="btn btn-secondary" >View Details</Link>
           <button className="btn btn-primary">Add to Cart</button>
         </div>
       </div>
